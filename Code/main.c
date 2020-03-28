@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+extern int yylex();
 extern FILE* yyin;
 int main(int argc,char** argv){
     if(argc>1)
